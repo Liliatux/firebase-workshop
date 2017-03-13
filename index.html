@@ -13,14 +13,13 @@
     
     <form action="" id="mon-formulaire">
       <input type="text" id="task" name="task" placeholder="Renouveller Tisseo...">
-      <button>Envoyer</button>
+      <button type="submit">Envoyer</button>
     </form>
 
     <div id="my-images">
 
     </div>
 
-    <script src="/index.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
     <script>
       // Initialize Firebase
@@ -31,9 +30,8 @@
         storageBucket: "projet1-9a446.appspot.com",
         messagingSenderId: "636215404797"
       };
-      firebase.initializeApp(config);
-
-      
+      firebase.initializeApp(config);    
     </script>
+    <script src="./index.js"></script>
   </body>
 </html>
